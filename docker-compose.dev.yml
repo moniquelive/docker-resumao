@@ -1,0 +1,9 @@
+services:
+  app:
+    depends_on:
+      mariadb:
+        condition: service_healthy
+    environment:
+      - FLASK_DEBUG=true
+    volumes:
+      - .:/app

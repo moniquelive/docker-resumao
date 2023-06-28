@@ -1,0 +1,4 @@
+Flask
+sqlalchemy
+watchdog
+pymysql
